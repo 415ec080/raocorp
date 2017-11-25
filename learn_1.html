@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>info</title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+			color: red;
+			border-style:ridge;
+			border-radius: 20px;
+			background-color: yellow;
+		}
+		h2{
+			text-align: center;
+			color: blue;
+		}
+		#subb{
+			text-align: center;
+			font-size: 30px;
+
+		}
+		#sub{
+			font-size: 20px;
+			color: black;
+			text-decoration: none;
+			background-color: #98c6d6;
+			padding: 10px 20px;
+
+		}
+		#sub:hover{
+			background-color: #8cacea;
+		}
+		p{
+			text-align: center;
+		}
+	</style>
+<script type="text/javascript">
+	function hai(){
+		var x=Math.floor(10000+Math.random()*900000);
+		alert(x);
+	}
+</script>
+
+</head>
+<body>
+<h1>Raocorp</h1>
+<h2>Info page</h2>
+<form name="form" method="get">
+<p>Enter name:<input type="text" id="name" title="enter the name" name="nam" placeholder="name"></p>
+<p> Enter age :<input type="number" id="age" title="enter age" name="age" placeholder="age"></p>
+<p>enter u r mail id<input type="text" name="mail"></p>
+<p id="subb"><input id="sub" type="Submit" name="Submit"></p>
+<button onclick="hai();">click</button>
+<a href="./learn.html">click me</a>
+<hr>
+
+</form>
+</body>
+</html>
