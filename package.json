@@ -1,0 +1,20 @@
+{
+  "name": "test_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node test2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/415ec080/raocorp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/415ec080/raocorp/issues"
+  },
+  "homepage": "https://github.com/415ec080/raocorp#readme"
+}
